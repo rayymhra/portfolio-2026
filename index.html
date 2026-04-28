@@ -316,12 +316,13 @@
     color: var(--cream);
     border-color: transparent;
   }
-  .project-card::after {
+  /* .project-card::after {
     content: '';
     position: absolute; inset: 0;
     background: linear-gradient(135deg, rgba(184,146,74,0.04), transparent);
     opacity: 0; transition: opacity 0.3s;
-  }
+    z-index: 0;
+  } */
   .project-card:hover::after { opacity: 1; }
   .project-card:hover { transform: translateY(-3px); box-shadow: 0 20px 60px rgba(74,55,40,0.1); }
   .project-card.featured:hover { box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
@@ -645,14 +646,18 @@
 
   <div class="hero-visual">
     <div class="hero-card">
-      <div class="hero-avatar">RM</div>
+      <div class="hero-avatar">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQGVj7mjeUSoGA/profile-displayphoto-shrink_800_800/B4EZcl_MMWHIAc-/0/1748689012014?e=1778716800&v=beta&t=NaVYoGamyC5P6AH2zZFNDi0zj01oYKpm1Lptl3VKIKY" alt="" style=" width: 100%;
+  height: 100%;
+  object-fit: cover; border-radius: 100px; border: #4a3728 1px solid;">
+      </div>
       <div class="hero-card-name">Rayya Mahira</div>
       <div class="hero-card-role">Junior Software Engineer</div>
       <div class="open-badge">Open to Work</div>
       <div class="hero-links">
-        <a href="mailto:rayya@email.com" class="hero-link-item">
+        <a href="mailto:rayyamahira@gmail.com" class="hero-link-item">
           <span class="hero-link-icon">✉</span>
-          <span class="hero-link-text">rayya@email.com</span>
+          <span class="hero-link-text">rayyamahira@gmail.com</span>
           <span class="hero-link-arrow">↗</span>
         </a>
         <a href="#" class="hero-link-item">
@@ -873,7 +878,7 @@
       <div class="project-title">Seven Eleven Cashier</div>
       <p class="project-problem">Cashier management system for streamlined point-of-sale operations with transaction history and reporting.</p>
       <div class="project-tech">
-        <span class="tech-tag">VB.NET</span>
+        <span class="tech-tag">PHP</span>
         <span class="tech-tag">MySQL</span>
       </div>
       <div class="project-links">
@@ -1010,10 +1015,10 @@
         Whether you have a web project, robotics challenge, or just want to connect — reach out.
       </p>
       <div class="contact-items">
-        <a href="mailto:rayya@email.com" class="contact-item">
+        <a href="mailto:rayyamahira@gmail.com" class="contact-item">
           <span class="contact-item-icon">✉</span>
           <span class="contact-item-label">Email</span>
-          <span class="contact-item-value">rayya@email.com →</span>
+          <span class="contact-item-value">rayyamahira@gmail.com →</span>
         </a>
         <a href="#" class="contact-item">
           <span class="contact-item-icon">in</span>
